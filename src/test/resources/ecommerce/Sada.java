@@ -10,6 +10,7 @@ import org.openqa.selenium.*;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.ui.Select;
 
+
 public class Sada {
   private WebDriver driver;
   private String baseUrl;
@@ -23,6 +24,8 @@ public class Sada {
     driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
   }
 //change 2
+  //Changes day 2
+  //modify 5
   @Test
   public void testSada() throws Exception {
     driver.get(baseUrl + "/");
