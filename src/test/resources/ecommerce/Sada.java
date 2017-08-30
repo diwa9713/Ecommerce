@@ -22,7 +22,7 @@ public class Sada {
     baseUrl = "http://live.guru99.com/";
     driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
   }
-
+//change 2
   @Test
   public void testSada() throws Exception {
     driver.get(baseUrl + "/");
